@@ -1,5 +1,5 @@
 # git_training_follettelab
-Repo used for training students to use Git Version Control and GitHub.
+Repository used for training students to use Git Version Control and GitHub.
 
 Welcome! We're going to go through a few training tasks to get the hang of Git. We'll also practice our **markdown** `skills` _while we're at it_!
 
