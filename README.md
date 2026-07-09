@@ -19,7 +19,7 @@ Students are all going to work in pairs, and hopefully figure out how to do thin
 2. Find and run the python file in the repo. Does it make any output files? Does git "see" those files? Figure out why/why not!
 ### Adding your name
 1. Make a new branch called `<your-name>` (e.g., mine would be `nat`).
-2. Add your name to the list of students, then `add`, `commit, and`` your changes.
+2. Add your name to the list of students, then `add`, `commit`, and `push` your changes.
 3. Create a merge request to the original repo's `main` branch. We'll probaby (*hopefully!*) run into some merge conflicts and work through them together.
 4. Switch back to the main branch on your local clone of the repo, and pull your merged changes from the `upstream` (original) repo.
 ### Improving the plotter code
