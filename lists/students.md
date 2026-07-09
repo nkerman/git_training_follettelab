@@ -8,8 +8,6 @@ Add your name or pseudonym here, and write something fun about yourself which us
 ## 2026
 * Nat (*Because* I'm a **lifelong** `learner`!)
 * **A** *l* ***y*** x (I enjoy that the github logo is a cat )
-
-<!-- Make a new year as necessary -->
 * Nini (***Hello world!***)
 * **jia jia**
 * Abby (I've used `GitHub` plenty, but for *some reason* I always forget to use the commands)
