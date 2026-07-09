@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # %%
 x = np.loadtxt('dir1/x.txt')
 y = np.loadtxt('dir2/y.txt')
-plt.plot(x, y, "o-")
+plt.plot(x, y, "o-", color="magenta", label='Data points')
 plt.xlabel("x-axis")
 plt.ylabel("y-axis")
 plt.title("What a nice plot!")
