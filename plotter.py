@@ -9,10 +9,13 @@ from matplotlib.collections import LineCollection
 x = np.loadtxt('dir1/x.txt')
 y = np.loadtxt('dir2/y.txt')
 
+# Set things up to go into line collection
 points = np.array([np.linspace(x.min(), x.max()), np.ones(50)]).T.reshape(-1,1,2)
 segments = np.concatenate([points[:-1], points[1:]], axis=1)
 norm = plt.Normalize(x.min(), x.max())
 lc = LineCollection(segments, zorder=1, cmap='cool', norm=norm)
+
+#Add heatmap aspect
 lc.set_array(np.linspace(x.min(), x.max()))
 lc.set_linewidth(y.max()*10)
 
