@@ -14,3 +14,4 @@ plt.title("What a nice plot!")
 plot_dir = Path("plots")
 plot_dir.mkdir(exist_ok=True)
 plt.savefig(plot_dir / "my_plot.png")
+
