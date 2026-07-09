@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 # %%
 x = np.loadtxt('dir1/x.txt')
 y = np.loadtxt('dir2/y.txt')
+plt.plot(y,x, 'o-', color = 'red')
+plt.plot(2*y, .5*x, 'o', color = 'orange')
 plt.plot(x, y, "o-")
 plt.xlabel("x-axis")
 plt.ylabel("y-axis")
